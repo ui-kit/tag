@@ -1,0 +1,6 @@
+import vars from 'ui-kit-typography/variables'
+
+font-size = vars.base + 'px'
+-webkit-text-size-adjust 100%
+-webkit-font-smoothing antialiased
+-moz-osx-font-smoothing auto

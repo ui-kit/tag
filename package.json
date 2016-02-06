@@ -1,0 +1,25 @@
+{
+  "name": "ui-kit-tag",
+  "version": "1.0.0",
+  "description": "styles for tags",
+  "main": "index.ess",
+  "scripts": {
+    "test": "poe-ui-serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ui-kit/tag.git"
+  },
+  "keywords": [
+    "tags"
+  ],
+  "author": "Michael Andrew Vanasse <mail@mndvns.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ui-kit/tag/issues"
+  },
+  "homepage": "https://github.com/ui-kit/tag",
+  "dependencies": {
+    "ui-kit-typography": "^1.0.0"
+  }
+}
