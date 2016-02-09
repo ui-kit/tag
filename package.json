@@ -1,6 +1,6 @@
 {
   "name": "ui-kit-tag",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "styles for tags",
   "main": "index.ess",
   "scripts": {
