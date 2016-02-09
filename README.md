@@ -34,7 +34,7 @@ All variables come with defaults, and can either be configured through props (se
 `tag`. For example, to set `html`'s `fontFamily` to `Courier`, do
 
     {
-      htmlFontFamily: 'Courier'
+      tagHtmlFontFamily: 'Courier'
     }
     
 in your `root.js`. See below for a complete list of available tags and their respective variables.
@@ -58,7 +58,7 @@ in your `root.js`. See below for a complete list of available tags and their res
 ### `h1`, `h2`, `h3`, `h4`, `h5`, `h6`, `p`
 
 Since these tags use `ui-kit/typography` to generate styles, they do not accept variables directly.
-However, you can configure them easily via the [typography variables.](https://github.com/ui-kit/typography).
+However, you can configure them easily via the [typography variables](https://github.com/ui-kit/typography).
 
 ## Todo
 
