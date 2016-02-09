@@ -1,4 +1,1 @@
-import vars from 'ui-kit-typography/variables'
-
-font-size = vars.along + 'rem'
-margin 0
+%./body/index.ess(fontSize=props.fontSize)

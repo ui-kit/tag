@@ -1,0 +1,10 @@
+import vars from './variables'
+
+var fontSize = (props && props.fontSize) || __.tagHtmlFontSize || __.typographyBase || vars.fontSize;
+var fontFamily = (props && props.fontFamily) || __.tagHtmlFontFamily || vars.fontFamily;
+
+font-size = fontSize + 'px'
+font-family = fontFamily
+-webkit-text-size-adjust 100%
+-webkit-font-smoothing antialiased
+-moz-osx-font-smoothing auto

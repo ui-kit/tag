@@ -4,4 +4,7 @@ html
 body
   %./body.ess
 
+a
+  %./a.ess
+
 %ui-kit-typography/index.ess

@@ -1,0 +1,6 @@
+import vars from './variables'
+
+var fontSize = (props && props.fontSize) || __.tagBodyFontSize || __.typographyAlong || vars.fontSize;
+
+font-size = fontSize + 'rem'
+margin 0
