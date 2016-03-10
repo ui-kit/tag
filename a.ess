@@ -1,1 +1,1 @@
-%./a/index.ess(color=props.color hoverColor=props.hoverColor)
+%./a/index.ess(props=props)

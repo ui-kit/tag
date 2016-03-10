@@ -1,16 +1,17 @@
-import vars from './variables'
+import Vars from './index.js'
 
-var color = (props && props.color) || __.tagAColor || vars.color
-var hoverColor = (props && props.hoverColor) || __.tagAHoverColor || vars.hoverColor
+var vars = Vars(__, (props && props.props) || props)
 
-color = color.toString()
+color = vars.color
 text-decoration none
 
 &:hover,
 &:focus
-  if hoverColor !== 'inherit'
-    color = hoverColor.toString()
-  text-decoration underline
+  color = vars.hoverColor
+  if vars.noUnderline
+    text-decoration none
+  else
+    text-decoration underline
 
 // improve readability when focused and also mouse hovered in all browsers
 &:active,

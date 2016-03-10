@@ -1,10 +1,14 @@
+import Vars from './index.js'
+
+var vars = Vars(__, props)
+
 html
-  %./html.ess
+  %./html/index.ess(props=vars.html)
 
 body
-  %./body.ess
+  %./body/index.ess(props=vars.body)
 
 a
-  %./a.ess
+  %./a/index.ess(props=vars.a)
 
-%ui-kit-typography/index.ess
+%ui-kit-typography/index.ess(props=vars.typography)

@@ -1,6 +1,6 @@
-import vars from './variables'
+import Vars from './index.js'
 
-var fontSize = (props && props.fontSize) || __.tagBodyFontSize || __.typographyAlong || vars.fontSize;
+var vars = Vars(__, props)
 
-font-size = fontSize + 'rem'
+font-size = vars.fontSize + 'rem'
 margin 0

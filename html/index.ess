@@ -1,10 +1,9 @@
-import vars from './variables'
+import Vars from './index.js'
 
-var fontSize = (props && props.fontSize) || __.tagHtmlFontSize || __.typographyBase || vars.fontSize;
-var fontFamily = (props && props.fontFamily) || __.tagHtmlFontFamily || vars.fontFamily;
+var vars = Vars(__, props)
 
-font-size = fontSize + 'px'
-font-family = fontFamily
+font-size = vars.fontSize + 'px'
+font-family = vars.fontFamily
 -webkit-text-size-adjust 100%
 -webkit-font-smoothing antialiased
 -moz-osx-font-smoothing auto

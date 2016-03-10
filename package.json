@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/ui-kit/tag",
   "dependencies": {
+    "ui-kit-color": "^1.0.0",
     "ui-kit-typography": "^1.0.0"
   }
 }
